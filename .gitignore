@@ -3,3 +3,9 @@ target
 .idea
 *.log
 *.log.*
+##################
+# Bazel
+##################
+bazel-*
+# Intellij with Bazel (IJWB)
+.ijwb/

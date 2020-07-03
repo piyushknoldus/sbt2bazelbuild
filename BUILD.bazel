@@ -1,0 +1,10 @@
+load("@io_bazel_rules_scala//scala:scala.bzl", "scala_binary")
+
+scala_binary(
+    name = "sbt2bazel",
+    deps = [
+        "//users"
+    ],
+    #this is our entry point
+    main_class = "io.knoldus.UserInfo"
+)
